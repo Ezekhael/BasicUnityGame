@@ -1,0 +1,444 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 16254 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/benes/Documents/GitHub/BasicUnityGame/SwingSword
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54886
+Successfully changed project path to: C:/Users/benes/Documents/GitHub/BasicUnityGame/SwingSword
+C:/Users/benes/Documents/GitHub/BasicUnityGame/SwingSword
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24828] Host "[IP] 10.0.1.94 [Port] 0 [Flags] 2 [Guid] 621167326 [EditorId] 621167326 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IH9MDBO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24828] Host "[IP] 10.0.1.94 [Port] 0 [Flags] 2 [Guid] 621167326 [EditorId] 621167326 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IH9MDBO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 16.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/benes/Documents/GitHub/BasicUnityGame/SwingSword/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   NVIDIA
+    VRAM:     6043 MB
+    Driver:   31.0.15.3640
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013587 seconds.
+- Loaded All Assemblies, in  0.702 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 450 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.954 seconds
+Domain Reload Profiling: 1653ms
+	BeginReloadAssembly (191ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (332ms)
+		LoadAssemblies (191ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (319ms)
+			TypeCache.Refresh (317ms)
+				TypeCache.ScanAssembly (293ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (954ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (848ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (635ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (142ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\benes\Documents\GitHub\BasicUnityGame\SwingSword\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\benes\Documents\GitHub\BasicUnityGame\SwingSword\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.249 seconds
+Refreshing native plugins compatible for Editor in 4.68 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.712 seconds
+Domain Reload Profiling: 1956ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (947ms)
+		LoadAssemblies (392ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (637ms)
+			TypeCache.Refresh (598ms)
+				TypeCache.ScanAssembly (569ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (713ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (480ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (329ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 6.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3313 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (139.3 KB). Loaded Objects now: 3781.
+Memory consumption went from 132.5 MB to 132.3 MB.
+Total: 3.338400 ms (FindLiveObjects: 0.270400 ms CreateObjectMapping: 0.243800 ms MarkObjects: 2.708400 ms  DeleteObjects: 0.114800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 127745.318197 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/Materials/Misc/PolygonStarter_Clouds_Mat.mat
+  artifactKey: Guid(24178269aee50fa45af0c61018153ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/Materials/Misc/PolygonStarter_Clouds_Mat.mat using Guid(24178269aee50fa45af0c61018153ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c309adbb663b6598d498714404a236d') in 0.122259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Materials/PolygonPrototype_Wire.mat
+  artifactKey: Guid(d3c006a1b9a8b264f8bee7b56f38100a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Materials/PolygonPrototype_Wire.mat using Guid(d3c006a1b9a8b264f8bee7b56f38100a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21fadd4917587b1edc2f34955c1a24ee') in 0.116594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/Materials/PolygonStarter_Mat_01.mat
+  artifactKey: Guid(dd41db2cdb4e66e4985303e1287ab101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/Materials/PolygonStarter_Mat_01.mat using Guid(dd41db2cdb4e66e4985303e1287ab101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e29a10c7af4893a7c19f8788335694') in 0.057704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Materials/PolygonPrototype_Texture_09.mat
+  artifactKey: Guid(dcc9a0b939c99774089653966acc8d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Materials/PolygonPrototype_Texture_09.mat using Guid(dcc9a0b939c99774089653966acc8d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc7f8213fcce73290a2d4ddaea9d332') in 0.097715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/Materials/Misc/PolygonStarter_SimpleSky_01.mat
+  artifactKey: Guid(749197eb2a1afbc4a8ead02781020e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/Materials/Misc/PolygonStarter_SimpleSky_01.mat using Guid(749197eb2a1afbc4a8ead02781020e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b69d9d5736ee846da0d967660aa8da3') in 0.083919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.197443 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/Characters/Character_Dummy_Female_01.prefab
+  artifactKey: Guid(8dbb22b9d53a7664b8619d4c6888d92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/Characters/Character_Dummy_Female_01.prefab using Guid(8dbb22b9d53a7664b8619d4c6888d92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7916a89a2d3bec1e8ccccdc3b4bd3076') in 0.124952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 130
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/Character_FPS_Hands/Standard/Character_FPS_Arms_Standard_01.prefab
+  artifactKey: Guid(63b914be36748c74ba47c08297bea915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/Character_FPS_Hands/Standard/Character_FPS_Arms_Standard_01.prefab using Guid(63b914be36748c74ba47c08297bea915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8221824770cfb8e85c1b72a3ff1c2da7') in 0.065441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 122
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Knight_01_Orange.prefab
+  artifactKey: Guid(360c73b9bf9a34d4c84bc0581d0499eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Knight_01_Orange.prefab using Guid(360c73b9bf9a34d4c84bc0581d0499eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5dfc91dd7422432d8d40438e81f22c') in 0.053841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 178
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_02_Yellow.prefab
+  artifactKey: Guid(04da108a79352fd408b092086312e147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_02_Yellow.prefab using Guid(04da108a79352fd408b092086312e147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a637f42c17d2d70487f5c272a21ba8') in 0.055542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 178
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_03_Orange.prefab
+  artifactKey: Guid(e34bd3f5d4151cd438a2d6d09cc5e0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_03_Orange.prefab using Guid(e34bd3f5d4151cd438a2d6d09cc5e0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df552f66c413c92252f9de84d0068b1') in 0.042241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 178
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Knight_03_Yellow.prefab
+  artifactKey: Guid(8106ba7338a788b4490a524fc4c3957f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Knight_03_Yellow.prefab using Guid(8106ba7338a788b4490a524fc4c3957f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43162f65cf6d7c5bdc795e9eed440431') in 0.026994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 176
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_01_Orange.prefab
+  artifactKey: Guid(54fee8e3fe360674bb840654a1856247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_01_Orange.prefab using Guid(54fee8e3fe360674bb840654a1856247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a7f710ec5aa8e3d27459eeb8476e40') in 0.028574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 178
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Soldier_02_Orange.prefab
+  artifactKey: Guid(e29b7534c7a519f4896a43415b178317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Soldier_02_Orange.prefab using Guid(e29b7534c7a519f4896a43415b178317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de0bdcfb6970b4102875eccb86728de') in 0.027552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 178
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Soldier_02_Yellow.prefab
+  artifactKey: Guid(b3ec5bb107e4ee045acc3e270dfda7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Soldier_02_Yellow.prefab using Guid(b3ec5bb107e4ee045acc3e270dfda7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c53ca55d24c0a34e37ebc33df05d33') in 0.027515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 178
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/FX/Fire_01_FX.prefab
+  artifactKey: Guid(118e3f56a5212e849882f9a2fccadda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/FX/Fire_01_FX.prefab using Guid(118e3f56a5212e849882f9a2fccadda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa94b22af5a8a6a1c7e6d4b7e0c3362f') in 0.036976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_01_Black.prefab
+  artifactKey: Guid(c1bf78096101892488e2d81d47664125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_01_Black.prefab using Guid(c1bf78096101892488e2d81d47664125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33ae4db1db7d77112ef783b417901b7') in 0.025361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 176
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Knight_01_Blue.prefab
+  artifactKey: Guid(b81ba67e44b1b174d9ef4491f146ee35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Knight_01_Blue.prefab using Guid(b81ba67e44b1b174d9ef4491f146ee35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d71a0898f36b9bc3d8c3e707b68585f') in 0.026763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 176
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Castle_Door_01_Snow.prefab
+  artifactKey: Guid(7af619afd99c7f840908922c2a1356f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Castle_Door_01_Snow.prefab using Guid(7af619afd99c7f840908922c2a1356f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbaced455839bffe96a9fd68e91c900') in 0.030912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/Other/FOV.prefab
+  artifactKey: Guid(c9a589dc94f925a4c8b6763a02a7acb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/Other/FOV.prefab using Guid(c9a589dc94f925a4c8b6763a02a7acb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c016909251bad9ecdf5e48cfcef1ec0') in 0.077662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Roof_Spire_01.prefab
+  artifactKey: Guid(2678ae1982dc1b74b99abd46d8ccb50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Roof_Spire_01.prefab using Guid(2678ae1982dc1b74b99abd46d8ccb50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da3996341d95db14377dba7052794c2') in 0.052754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Soldier_01_Orange.prefab
+  artifactKey: Guid(de9acb9f71f3b514697b1065f1065e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Soldier_01_Orange.prefab using Guid(de9acb9f71f3b514697b1065f1065e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c637dbe84248c40e6218cd51b3196e') in 0.036323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 178
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Flagpole_01.prefab
+  artifactKey: Guid(d27315a8551b44044a8042a19932c483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Flagpole_01.prefab using Guid(d27315a8551b44044a8042a19932c483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c52aaded3731913513eb32bd247825') in 0.040724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Soldier_01_Yellow.prefab
+  artifactKey: Guid(1da128d179f99f24b8127fd97ca15aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/Character_Soldier_01_Yellow.prefab using Guid(1da128d179f99f24b8127fd97ca15aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4cc749a0a42d6032e7d25d1cacbccca') in 0.030574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 176
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Soldier_02_Blue.prefab
+  artifactKey: Guid(2e75b803e4467054788c11f49c6c098f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Soldier_02_Blue.prefab using Guid(2e75b803e4467054788c11f49c6c098f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c835c26ce6a302bb713fa3816df1c7') in 0.027757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 178
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_02_Black.prefab
+  artifactKey: Guid(f96fa216d8859434fb29ff7cc4930724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_02_Black.prefab using Guid(f96fa216d8859434fb29ff7cc4930724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe3848e743b90c91d1c1e96a4242007') in 0.026674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 176
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Soldier_01_Orange.prefab
+  artifactKey: Guid(529b63b3c6d894747b009dcccb171efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Soldier_01_Orange.prefab using Guid(529b63b3c6d894747b009dcccb171efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c74a85d0ca1f63f5b5f067b867115be') in 0.028415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 178
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/Prefabs/Characters/SM_Bean_Town_Female_01.prefab
+  artifactKey: Guid(9b88eb630e9e15a4f950eae741685374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/Prefabs/Characters/SM_Bean_Town_Female_01.prefab using Guid(9b88eb630e9e15a4f950eae741685374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c527ba6b18a5b533fbd5b6863ea8d64') in 0.034516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Soldier_01_Black.prefab
+  artifactKey: Guid(084d983feb3cc754a8dc6647297cd52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Soldier_01_Black.prefab using Guid(084d983feb3cc754a8dc6647297cd52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df1f50aaed84608cb69cbce227aa5a1') in 0.029656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 176
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Iron_Gate_01.prefab
+  artifactKey: Guid(0a5ef1aaf47f03547983772b8f1f3a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Iron_Gate_01.prefab using Guid(0a5ef1aaf47f03547983772b8f1f3a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf951c727cef11cc1aff9dcf48758171') in 0.030698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/Characters/Character_Female_NoFace_01.prefab
+  artifactKey: Guid(722ecf17232566e4a81b862e2ca44aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Prefabs/Characters/Character_Female_NoFace_01.prefab using Guid(722ecf17232566e4a81b862e2ca44aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7227bd66e6bc0c0a638ab73b1510b2e2') in 0.050045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 136
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_01_Blue.prefab
+  artifactKey: Guid(2b742818ae249a64dad8ff314e13200c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonKnights/Prefabs/Characters/FixedScaleCharacters/Character_Knight_01_Blue.prefab using Guid(2b742818ae249a64dad8ff314e13200c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6939b6a0c99612a81451b8137100518') in 0.027817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 178
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/CW/LeanCommon/Examples/Prefabs/Label.prefab
+  artifactKey: Guid(b06e85cdb86ff204aa4c8e276668b4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/LeanCommon/Examples/Prefabs/Label.prefab using Guid(b06e85cdb86ff204aa4c8e276668b4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db2f10a51beef86c9686d38b3fdc8cc') in 0.012577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Bir iþ parçacýðý çýkýþý veya bir uygulama isteði nedeniyle G/Ç iþlemi iptal edildi.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
